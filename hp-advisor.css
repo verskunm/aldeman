@@ -1,0 +1,417 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+/******************************************
+
+Homepage Service Section
+
+*******************************************/
+
+
+.servicesTool {
+	background-position: 300px bottom;
+	background-repeat: no-repeat;
+	background-color: #acdfed;
+	font-size: 30px;
+	padding: 2% 0 5% 0;
+	text-align: center;
+}
+
+.servicesTool.center .toolCnt {
+	text-align: left;
+	padding: 0px 10%;
+}
+
+
+.servicesTool .toolMain.box {
+	background-color: #fff;
+    -webkit-box-shadow: 0px 5px 8px 0px rgba(22, 20, 20, 0.1);
+            box-shadow: 0px 5px 8px 0px rgba(22, 20, 20, 0.1);
+    padding: 40px 93px;
+    font-size: 24px;
+    font-weight: bold;
+	text-align: center;
+}
+
+.servicesTool.center .toolCnt h2, 
+.servicesTool.center .toolCnt .title {
+	margin: 10px 0 0 0;
+	line-height: 1.2;
+}
+
+
+.servicesTool.center .toolCnt h2 {
+	font-family: "CFAstyStd-Bold" !important;
+	font-size: 40px;
+	line-height: 1.2;
+	color: #438da0;
+    margin: 40px 0px 0px 0px;
+}
+
+.servicesTool.center .toolCnt .title {
+	font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.servicesTool .toolMain.box .selected, 
+.servicesTool.center .toolCnt > * {
+	color: #438da0 !important;
+}
+
+.servicesTool .toolMain.box {
+	padding: 40px 15px;
+	font-family: "CFAstyStd-Bold" !Important;
+}
+
+
+.servicesTool .toolMain.box .text {
+	display: inline-block;
+	font-size: 24px !important;
+	vertical-align: bottom;
+	padding: 14px 0;
+}
+
+
+/* drop down */
+
+.selectBox.inline li {
+	font-family: "CFAstyStd-Book";
+	font-size: 24px !important;
+	padding: 15px !important;
+}
+
+.servicesTool .selectBox.inline {
+	padding: 0 !important;
+	margin: 0 20px  !important;
+}
+
+.servicesTool .selectBox.inline .selected, 
+.servicesTool .selectBox.inline .options li.active {
+	font-family: "CFAstyStd-Bold" !important;
+	text-align: left !important;
+	font-size: 24px !important;
+	height: 59px !important;
+	padding: 20px 15px !important;
+}
+
+.servicesTool .selectBox .selected:after {
+	font-weight: bold;
+	color: #438da0;
+	text-align: left !important;
+	right: 15px;
+}
+
+.selectBox.inline .options ul, 
+.selectBox.inline .options li, 
+.selectBox.inline .options li.active {
+	text-align: left;
+	font-family: "CFAstyStd-Bold" !important;
+}
+
+
+.servicesTool.center .options .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background: #438da0 !important;
+    width: 5px;
+    margin-top: 70px !important;
+}
+
+.selectBox.inline .options li.active:after {
+    background-color: #438da0;
+    bottom: 0px;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 92%;
+    margin: 0 auto;
+    height: 1px;
+}
+
+.selectBox.inline.open .options ul {
+	padding: 0px !important;
+}
+
+.selectBox.inline.open .options {
+    width: 100% !important;
+    padding: 0;
+    left: 0px;
+    top: 0px;
+}
+
+.selectBox.inline .options {
+    left: 0px !important; 
+    top: 0px !important; 
+}
+
+.mCustomScrollBox {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    max-width: 100%;
+    outline: none;
+    direction: unset;
+}
+
+/* cta */
+.servicesTool .button_stroked.withArrowR {
+	padding: 20px 45px;
+	font-size: 14px;
+	text-transform: uppercase;
+	border-color: #438da0;
+}
+
+.servicesTool .button_stroked.withArrowR:after {
+    font-size: 12px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.button_stroked.dark.active, .desktop .button_stroked.dark:not(:disabled):hover {
+    background-color: #438da0 !important;
+    border-color: #438da0 !important;
+    color: #fff;
+}
+
+/*
+Homepage Service Section
+*****************************/
+
+@media only screen and (max-width: 1100px) {
+
+	.servicesTool.center {
+		background-position: 150px bottom;
+		padding: 1% 0 5% 0;
+	}
+
+	.servicesTool.center .toolCnt {
+		text-align: left;
+		padding: 0px 5%;
+	}
+
+
+}
+
+@media only screen and (max-width: 900px) {
+
+
+	.servicesTool.center {
+		background-position: center bottom;
+		padding: 3% 0 3% 0;
+	}
+
+	.servicesTool.center .toolCnt {
+		text-align: left;
+	}
+
+	.servicesTool .toolMain.box {
+		margin-bottom: 0;
+		padding: 20px 15px;
+	}
+
+	.servicesTool.center .toolCnt h2, 
+	.servicesTool.center .toolCnt .title {
+	    max-width: 308px;
+		text-align: left;
+	}
+
+	.servicesTool.center .toolCnt h2 {
+		margin: 0;
+	}
+
+	.servicesTool.center .toolCnt .title {
+		margin-bottom: 30%;
+	}
+
+
+	.servicesTool .selectBox.inline {
+		padding: 0 !important;
+		margin: 0 auto  !important;
+	}
+
+
+}
+
+
+@media only screen and (max-width: 810px) {
+
+	.servicesTool.center {
+		background-position: center 0px;
+	}
+
+	.servicesTool .button_stroked.withArrowR {
+		padding: 20px 25px;
+		font-size: 14px;
+		text-transform: uppercase;
+		border-color: #438da0;
+	}
+
+	.servicesTool .selectBox.inline {
+		width: 300px !important;
+	}
+
+
+}
+
+
+@media only screen and (max-width: 720px) {
+	
+	.servicesTool.center .toolCnt {
+		padding: 0 5%;
+	}
+
+
+	.servicesTool.center .toolCnt h2 {
+		font-size: 36px;
+	}
+
+	.servicesTool.center .toolCnt .title {
+		margin-bottom: 30%;
+		font-size: 20px;
+	}
+
+	.servicesTool.center .toolCnt h2, 
+	.servicesTool.center .toolCnt .title {
+		text-align: left;
+	}
+
+	.servicesTool .selectBox.inline {
+	}
+
+
+	.servicesTool .button_stroked.withArrowR  {
+		margin-top: 5%;
+		width: 70%
+	}
+
+
+}
+
+@media only screen and (max-width: 580px) {
+	
+	.servicesTool.center {
+		background-position: center bottom;
+		background-size: 210%;
+		padding: 5% 0 3% 0;
+	}
+
+	.servicesTool.center .toolCnt h2 {
+		font-size: 28px;
+	}
+
+	.servicesTool.center .toolCnt .title {
+		margin-bottom: 35%;
+		font-size: 16px;
+	}
+
+	.servicesTool .toolMain.box {
+		padding: 10px 15px 20px 15px;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 460px) {
+	
+	.servicesTool.center {
+		background-position: center bottom;
+		background-size: 300%;
+		padding: 5% 0 3% 0;
+	}
+
+	.servicesTool.center .toolCnt h2 {
+		font-size: 28px;
+	}
+
+	.servicesTool.center .toolCnt .title {
+		margin-bottom: 45%;
+		font-size: 16px;
+	}
+
+	.servicesTool .toolMain.box .text {
+		display: block;
+		vertical-align: bottom;
+		text-align: left;
+		width: 100%;
+		padding-left: 15px;
+	}
+
+	.servicesTool .toolMain.box {
+		padding: 10px 15px 20px 15px;
+	}
+	
+
+	.servicesTool .selectBox.inline {
+		width: 100% !important;
+	}
+	
+	.pageContent.topPage .servicesTool .selectBox.inline .selected {
+		bottom: -15px !important;
+	}
+
+	.servicesTool .button_stroked.withArrowR  {
+		margin-top: 10%;
+		width: 100%
+	}
+
+}
+
+
+@media only screen and (max-width: 425px) {
+	
+	.servicesTool.center {
+		background-position: center bottom;
+		background-size: 340%;
+		padding: 5% 0 3% 0;
+	}
+
+	.servicesTool.center .toolCnt h2 {
+		font-size: 28px;
+	}
+
+	.servicesTool.center .toolCnt .title {
+		margin-bottom: 55%;
+		font-size: 16px;
+		max-width: 150px;
+	}
+
+	.servicesTool .toolMain.box .text {
+		display: block;
+		vertical-align: bottom;
+		text-align: left;
+		width: 100%;
+		padding-left: 15px;
+		padding: 14px 0 0 15px;
+	}
+
+	.servicesTool .toolMain.box .text, 
+	.servicesTool .selectBox.inline .selected, 
+	.servicesTool .selectBox.inline .options li.active {
+		font-size: 18px !important;
+	}
+
+	.servicesTool .toolMain.box {
+		padding: 10px 15px 20px 15px;
+	}
+	
+	.servicesTool .selectBox.inline .selected, .servicesTool .selectBox.inline .options li.active {
+		height: 50px !important;
+		padding: 20px 15px 0px 15px !important;
+	}
+	
+	.servicesTool .selectBox.inline {
+		width: 100% !important;
+	}
+
+}
+
+
+@media only screen and (max-width: 320px) {
+	
+	.servicesTool.center {
+		background-size: 390%;
+	}
+
+
+}
